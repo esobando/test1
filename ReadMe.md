@@ -7,8 +7,13 @@ Test 1:
 	-Values folder
 
 3.	What is the difference between SP and DP?
+	- Sp: It's scaled by the user's preference. It is recommended you use this unit
+	when specifiying font sizes.
+	                                    
 
 4.	How can you support multiple languages in your app? Explain step by step process.
+	-Changing the process in the resource folder and typing the string in the what ever language you choose
+	
 5.	What is the difference between match_parent and wrap_content?
 	-Match: handles the height of the view.
 	-Wrap: handles the width of the view.
@@ -51,9 +56,16 @@ Test 1:
 	-You go to the xml file and insert the android orientation code.
 
 19.	Which method is called to persist the data before the activity is destroyed?
+	-Activity Lifecyle
+	
 20.	What is the argument of that method?
+	-Instant
 21.	How do we save the data in the method?
+	-edit.text
+	
 22.	How to get that data back? What is the name of the method?
+	-You call the text from the main activity and the the xml file.
+	
 23.	What is a bundle? What can a bundle contain?
 24.	What is the difference between onPause and onStop?
 	-onPause: The activity is not active, while another is in front of it.
@@ -68,22 +80,41 @@ Test 1:
 
 29.	How to add data to an intent?
 30.	What kind of data can be added to an intent?
-31.	How to get the data sent from activity one in activity two?
+	-String data, int data
+	
+31.	How to get the data sent from activity one in activity two?'
+	-By calling the name of the activity and rename it calling the main style.
+	
 32.	What is context?
+	-Allows access to application allows access to application specific resources and alows access and resources.
+	
 33.	Name different kinds of layouts in Android?
 	-RelativeLayout
 	-LinearLayout
 	-FrameLayout
 
 34.	How to send an object through an Intent?
+	-By calling the intent.
+	
 35.	What is Serializable?
+	-Is the process of converting an object into a stream of bytes in order to
+	store the object or transmit it to memory
+	
 36.	What is Parcelable?
 	-SingleTop
 
-37.	Which is better and why?
+37.	Which is better and why? 
+	-parcelable
+	
 38.	How can an object class be Serializable or Parcelable? Explain in detail the methods to implement if any?
+	-You can implement object by calling it.
+	
 39.	Can we avoid implementing methods using Parcelable?
+	-By creating another object of it.
+	
 40.	What are launch modes? Explain each one of them in detail.
+	-Is an instruction for android OS which specifies how the activity should be.
+	
 41.	What is back stack?
 	-Four or five blocks that are stacked on top of eachother, then the last one is moved up on top.
 
